@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-color: #88AB8E;
+    text-align: center;
+}
+
+.title {
+    font-size: 10vmin;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    margin-top: 5vmin;
+    margin-bottom: 3vmin;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #DBCC95;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+
+}
+
+#newGame-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#msg {
+    color: rgb(0, 0, 0);
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
